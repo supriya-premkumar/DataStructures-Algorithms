@@ -32,7 +32,7 @@ Binary Tree is a Data Structure useful for representing hierarchy, where each no
     
     * The number of nodes doubles at each level as we go down the height of a Perfect Binary Tree.
     
-        <a href="url"><img src="https://github.com/supriya-premkumar/InterviewPrep/blob/master/Images/Property1.png" align="center" height="48" width="48" ></a>
+        <a href="url"><img src="https://github.com/supriya-premkumar/InterviewPrep/blob/master/Images/Property1.png" align="center" height="400" width="400" ></a>
 
 
 
