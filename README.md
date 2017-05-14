@@ -28,11 +28,12 @@ Binary Tree is a Data Structure useful for representing hierarchy, where each no
     ### Perfect Binary:
     A Binary Tree is called `Perfect Binary Tree` when all the leaf nodes are at same depth.
     
-        <a href="url"><img src="https://github.com/supriya-premkumar/InterviewPrep/blob/master/Images/PerfectBinaryTree.png" align="left" height="300" width="300" ></a>
+        <a href="url"><img src="https://github.com/supriya-premkumar/InterviewPrep/blob/master/Images/PerfectBinaryTree.png" align="center" height="300" width="300" ></a>
+        
+   
+  * The number of nodes doubles at each level as we go down the height of a Perfect Binary Tree.
     
-    * The number of nodes doubles at each level as we go down the height of a Perfect Binary Tree.
-    
-        <a href="url"><img src="https://github.com/supriya-premkumar/InterviewPrep/blob/master/Images/Property1.png" align="left" height="300" width="400" ></a>
+        <a href="url"><img src="https://github.com/supriya-premkumar/InterviewPrep/blob/master/Images/Property1.png" align="center" height="300" width="400" ></a>
 
 
 
