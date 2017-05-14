@@ -15,12 +15,23 @@ Big O Efficiency:
                 * Insertion: Linked Lists: O(1)
 
 
-	
+##BinaryTree:
+Binary Tree is a Data Structure useful for representing hierarchy, where each node can only have two children.
+
+* Left Child (Left Subtree)
+* Right Child (Right Subtree)
+
+    ###Perfect Binary:
+    A Binary Tree is called `Perfect Binary Tree` when all the leaf nodes are at same depth.
+    [[https://github.com/supriya-premkumar/InterviewPrep/Images/img/PerfectBinaryTree.png|alt=PerfectBinaryTree]]
+
+    
 
 
 
 ``` Reference: Elements of Programming Interviews in Java
-               CodePath Alumni Interview Prep Course```
+               `CodePath` Alumni Interview Prep Course
+               `https://www.interviewcake.com` ```
 
 
 ## License
