@@ -1,10 +1,10 @@
 # Interview Prep - Data Structures and Algorithms 
 
-##Arrays:
+## Arrays:
 
-##Strings:
+## Strings:
 
-##Linked Lists:
+## Linked Lists:
  Linked List is a type of Data Structure which stores data in the form of nodes,
  each node contains an object and a reference to the next node.
                 
@@ -15,13 +15,13 @@ Big O Efficiency:
                 * Insertion: Linked Lists: O(1)
 
 
-##BinaryTree:
+## BinaryTree:
 Binary Tree is a Data Structure useful for representing hierarchy, where each node can only have two children.
 
 * Left Child (Left Subtree)
 * Right Child (Right Subtree)
 
-    ###Perfect Binary:
+    ### Perfect Binary:
     A Binary Tree is called `Perfect Binary Tree` when all the leaf nodes are at same depth.
     
     ![Alt text](https://github.com/supriya-premkumar/InterviewPrep/blob/master/Images/PerfectBinaryTree.png?raw=true "PerfectBinaryTree")
@@ -29,9 +29,11 @@ Binary Tree is a Data Structure useful for representing hierarchy, where each no
 
 
 
-``` Reference: Elements of Programming Interviews in Java
-               `CodePath` Alumni Interview Prep Course
-               `https://www.interviewcake.com` ```
+``` 
+References:      Elements of Programming Interviews in Java
+                 CodePath Alumni Interview Prep Course
+                 https://www.interviewcake.com
+ ```
 
 
 ## License
