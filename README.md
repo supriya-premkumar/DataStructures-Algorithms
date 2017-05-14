@@ -2,17 +2,21 @@
 
 ## Arrays:
 
+
 ## Strings:
+
 
 ## Linked Lists:
  Linked List is a type of Data Structure which stores data in the form of nodes,
  each node contains an object and a reference to the next node.
+ 
                 
 Big O Efficiency:
-                * Indexing: Linked Lists: O(n)
-                * Search: Linked Lists: O(n)
-                * Optimized Search: Linked Lists: O(n)
-                * Insertion: Linked Lists: O(1)
+
+* Indexing: Linked Lists: O(n)
+* Search: Linked Lists: O(n)
+* Optimized Search: Linked Lists: O(n)
+* Insertion: Linked Lists: O(1)
 
 
 ## BinaryTree:
@@ -26,6 +30,10 @@ Binary Tree is a Data Structure useful for representing hierarchy, where each no
     
     ![Alt text](https://github.com/supriya-premkumar/InterviewPrep/blob/master/Images/PerfectBinaryTree.png?raw=true "PerfectBinaryTree")
     
+    * The number of nodes doubles at each level as we go down the height of a Perfect Binary Tree.
+    
+        <a href="url"><img src="https://github.com/supriya-premkumar/InterviewPrep/blob/master/Images/Property1.png" align="center" height="48" width="48" ></a>
+
 
 
 
