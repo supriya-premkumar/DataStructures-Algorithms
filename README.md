@@ -1,6 +1,22 @@
 # Interview Prep - Data Structures and Algorithms 
 
 ## Arrays:
+Arrays is a contiguous blocks of memory used to represent sequence.
+An array maps an integers in the range [0,n-1] to objects of given type,
+where n represents number of objects in the array/size of an array.
+   ### Types:
+   * One-dimensional Arrays: Linear Arrays
+   * Multi-dimensional Arrays: an array containing more than one or more arrays.
+     Has one index per dimension.
+         Two dimensional array has two indices to select an element.
+         Three dimensional array has three indices to select an element.
+   * Dynamic Arrays:
+     Support resizing.
+   
+   | First Header  | Second Header |
+   | ------------- | ------------- |
+   | Content Cell  | Content Cell  |
+   | Content Cell  | Content Cell  |
 
 
 ## Strings:

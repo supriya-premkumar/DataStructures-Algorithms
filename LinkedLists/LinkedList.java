@@ -1,33 +1,78 @@
-public  class LinkedList{
-
-    Node first;
-
-    LinkedList(){
-        first = null;
+public class LinkedList<T>{
+    private LinkedListNode<T> head = null;
+    /**
+     * Insert a Node at the head
+     */
+    public void insert(LinkedListNode<T> node){
+       node.setNode(head);
+       head = node;
     }
 
-    LinkedList(Node f){
-        first = f;
+    /**
+     * Remove node at the head
+     */
+
+    public void delete(){
+
+        if(head.getNext() !=null){
+            head = head.getNext();
+        }else{
+            head = null;
+        }
+
+    }
+
+    /**
+     * Recursively Traverse the list
+     */
+    private void printList(LinkedListNode<T> node){
+        System.out.println("Node is : " + node.getValue());
+        System.out.print
+        if(node.getNext()!=null){
+            printList(node.getNext());
+        }
     }
 
     public void print(){
-        Node p = first;
-        while(p != null){
-            System.out.print(p.data + "-->");
-            p = p.next;
-        }
-        System.out.println("null");
+        printList(head);
     }
 
-    public void insertAtBeginning(Object a){
-        Node n = new Node(a);
-        n.next = first;
-        first = n;
+    public static void main(String[] args){
+        LinkedList<Integer> list = new LinkedList<Integer>();
+        list.insert(new LinkedListNode<Integer>(3));
+        list.insert(new LinkedListNode<Integer>(4));
+        list.insert(new LinkedListNode<Integer>(5));
+        list.print();
 
     }
 
-    public Object deleteNode(Object){
 
+
+}
+
+class LinkedListNode<T>{
+    private T data;
+    private LinkedListNode<T> next;
+
+    public LinkedListNode(T data){
+        this.data = data;
+    }
+
+    public LinkedListNode(LinkedListNode<T> node){
+        this.next = node;
+
+    }
+
+    public void setNode(LinkedListNode<T> node){
+        this.next = node;
+    }
+
+    public LinkedListNode<T> getNext(){
+        return this.next;
+    }
+
+    public T getValue(){
+        return this.data;
     }
 
 
