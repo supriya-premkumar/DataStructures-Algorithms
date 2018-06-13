@@ -1,79 +1,63 @@
 public class LinkedList<T>{
-    private LinkedListNode<T> head = null;
-    /**
-     * Insert a Node at the head
-     */
-    public void insert(LinkedListNode<T> node){
-       node.setNode(head);
-       head = node;
+  private ListNode<T> head = null;
+  public static void main(String[] args){
+    LinkedList<Integer> list = new LinkedList<Integer>();
+    list.insert(new ListNode<Integer>(2));
+    list.insert(new ListNode<Integer>(1));
+    list.insert(new ListNode<Integer>(1));
+    list.insert(new ListNode<Integer>(2));
+    list.insert(new ListNode<Integer>(4));
+    list.printNode();
+
+  }
+
+  public void insert(ListNode<T> node){
+    if(node != null){
+      node.setNext(head);
+      head = node;
     }
+  }
 
-    /**
-     * Remove node at the head
-     */
 
-    public void delete(){
-
-        if(head.getNext() !=null){
-            head = head.getNext();
-        }else{
-            head = null;
-        }
-
+  void print(ListNode<T> node){
+    System.out.println("Node is: " + node.getValue());
+    if(node.getNext()!=null){
+      print(node.getNext());
     }
+  }
 
-    /**
-     * Recursively Traverse the list
-     */
-    private void printList(LinkedListNode<T> node){
-        System.out.println("Node is : " + node.getValue());
-        System.out.print
-        if(node.getNext()!=null){
-            printList(node.getNext());
-        }
-    }
-
-    public void print(){
-        printList(head);
-    }
-
-    public static void main(String[] args){
-        LinkedList<Integer> list = new LinkedList<Integer>();
-        list.insert(new LinkedListNode<Integer>(3));
-        list.insert(new LinkedListNode<Integer>(4));
-        list.insert(new LinkedListNode<Integer>(5));
-        list.print();
-
-    }
-
+void printNode(){
+    print(head);
+  }
 
 
 }
 
-class LinkedListNode<T>{
-    private T data;
-    private LinkedListNode<T> next;
 
-    public LinkedListNode(T data){
-        this.data = data;
-    }
+class ListNode<T> {
+  private T value;
+  private ListNode<T> next;
 
-    public LinkedListNode(LinkedListNode<T> node){
-        this.next = node;
+  ListNode(){
+    this.value = null;
+    this.next = null;
+  }
 
-    }
+  ListNode(T data){
+    value = data;
+    this.next = null;
+  }
 
-    public void setNode(LinkedListNode<T> node){
-        this.next = node;
-    }
+  void setNext(ListNode<T> next){
+    this.next = next;
+  }
 
-    public LinkedListNode<T> getNext(){
-        return this.next;
-    }
+  ListNode<T> getNext(){
+    return next;
+  }
 
-    public T getValue(){
-        return this.data;
-    }
-
+  T getValue(){
+    return value;
+  }
 
 }
