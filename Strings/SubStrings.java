@@ -36,24 +36,25 @@ public class SubStrings{
         return result;
     }
 
-    /**
-     * Without using java substring
-     * SubString2: method that calculates Substring combinations of a given string
-     * @param input, String
-     * @return result, ArrayList<ArrayList<String>>
-     */
-    public static ArrayList<ArrayList<String>> SubString2(String input){
-        ArrayList<String> subStr = new ArrayList<String>();
-        ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
-
-        for(int i=0; i<input.length(); i++){
-            for(int j=0; j<input.length(); j++){
-
-            }
-        }
-
-
-    }
+//    /**
+//     * Without using java substring
+//     * SubString2: method that calculates Substring combinations of a given string
+//     * @param input, String
+//     * @return result, ArrayList<ArrayList<String>>
+//     */
+//    public static ArrayList<ArrayList<String>> SubString2(String input){
+//        ArrayList<String> subStr = new ArrayList<String>();
+//        ArrayList<ArrayList<String>> result = new ArrayList<ArrayList<String>>();
+//
+//        for(int i=0; i<input.length(); i++){
+//            for(int j=0; j<input.length(); j++){
+//
+//
+//            }
+//        }
+//
+//
+//    }
 
 
 
