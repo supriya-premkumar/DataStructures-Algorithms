@@ -1,63 +1,44 @@
 public class LinkedList<T>{
   private ListNode<T> head = null;
+
+  public static void insert(ListNode<T> node){
+
+
+  }
+
   public static void main(String[] args){
-    LinkedList<Integer> list = new LinkedList<Integer>();
-    list.insert(new ListNode<Integer>(2));
-    list.insert(new ListNode<Integer>(1));
-    list.insert(new ListNode<Integer>(1));
-    list.insert(new ListNode<Integer>(2));
-    list.insert(new ListNode<Integer>(4));
-    list.printNode();
-
+    LinkedList<Integer> linkedList = new LinkedList<Integer>();
+    linkedList.insert(new ListNode<Integer>(2));
+    linkedList.insert(new ListNode<Integer>(5));
+    linkedList.insert(new ListNode<Integer>(7));
   }
-
-  public void insert(ListNode<T> node){
-    if(node != null){
-      node.setNext(head);
-      head = node;
-    }
-  }
-
-
-  void print(ListNode<T> node){
-    System.out.println("Node is: " + node.getValue());
-    if(node.getNext()!=null){
-      print(node.getNext());
-    }
-  }
-
-void printNode(){
-    print(head);
-  }
-
 
 }
 
+class ListNode<T>{
+  public T data;
+  public ListNode<T> next;
 
-class ListNode<T> {
-  private T value;
-  private ListNode<T> next;
-
-  ListNode(){
-    this.value = null;
+  public ListNode(){
+    this.data = null;
     this.next = null;
   }
 
-  ListNode(T data){
-    value = data;
+  public ListNode(T data){
+    this.data = data;
     this.next = null;
   }
 
-  void setNext(ListNode<T> next){
-    this.next = next;
-  }
-
-  ListNode<T> getNext(){
+  //getNext()
+  public ListNode<T> getNext(){
     return next;
   }
+  //setNext()
+  public void setNext(ListNode<T> node){
+    this.next = node;
 
-  T getValue(){
-    return value;
   }
+  //print linkedList
+  //
 
 }

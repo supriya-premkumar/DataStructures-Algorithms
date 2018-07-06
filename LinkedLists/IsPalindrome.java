@@ -1,6 +1,9 @@
 import java.util.LinkedList;
 import java.util.Arrays;
 
+/**
+ *
+ */
 
 public class IsPalindrome{
   public static void main(String[] args){
