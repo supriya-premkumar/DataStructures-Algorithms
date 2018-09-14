@@ -1,4 +1,4 @@
-# Interview Prep - Data Structures and Algorithms 
+# Data Structures and Algorithms 
 
 ## Arrays:
 Arrays is a contiguous blocks of memory used to represent sequence.
@@ -20,7 +20,7 @@ where n represents number of objects in the array/size of an array.
 
 
 ## Strings:
-
+   Sequence of characters.
 
 ## Linked Lists:
  Linked List is a type of Data Structure which stores data in the form of nodes,
